@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    background: url(../images/fondo\ \(1\).png);
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 220px;
+}
+.sitios{
+    display: flex;
+    gap: 20px;
+    color: #0D5EFF;
+    font-weight: bold;
+    padding-right: 120px;
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #3E64DE;
+    color: white;
+    border-radius: 50%; 
+    border: none;
+}
+.contenedorGrande{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding:0 100px 0 100px;
+}
+.usuario{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.parrafo{
+    display: flex;
+    flex-direction: column;
+}
+.nombre{
+    font-weight: bold;
+    font-size: 20px;
+}
+.notis{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+}
+.boton{
+    border: 1px solid #CC3366;
+    padding: 15px;
+    border-radius: 3px;
+    align-items: center;
+}
+.botonseccion{
+    display: flex;
+    justify-content: flex-end;
+}
+.contenedorGrande2{
+    display: flex;
+}
+.contenedor2{
+    display: flex;
+    flex: 1;
+}
+.contenedor3{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    gap: 20px;
+}
+.cursos{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.titulo{
+    display: flex;
+    font-weight: bold;
+    font-size: 17px;
+}
+.tarjetas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(133, 133, 133);
+    border-radius: 30px;
+    gap: 30px;
+}
+.parrafo2{
+    font-weight: bold;
+    padding: 15px;
+}
+.tarjetas img{
+    width: 190px;
+    height: 110px;
+    border-radius: 30px;
+    border: 2px solid rgb(131, 131, 131);
+}
